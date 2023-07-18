@@ -29,6 +29,7 @@ struct random_or_personalized: View {
 
 struct random_or_personalized_Previews: PreviewProvider {
     static var previews: some View {
+        
         random_or_personalized()
     }
 }
