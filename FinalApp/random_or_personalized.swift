@@ -17,7 +17,7 @@ struct random_or_personalized: View {
                 
                 NavigationStack {
                     NavigationLink(destination: survey1()) {
-                        Text("Personalized")
+                        Text("Personalized!")
                     }
                 }
                 Spacer()
