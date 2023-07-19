@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD64133D2A68328400291ED0 /* promptsfantasy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD64133C2A68328400291ED0 /* promptsfantasy.swift */; };
+		BD64133F2A68329400291ED0 /* promptscomedy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD64133E2A68329400291ED0 /* promptscomedy.swift */; };
+		BD6413412A6832AB00291ED0 /* promptshorror.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6413402A6832AB00291ED0 /* promptshorror.swift */; };
+		BD6413432A6832B400291ED0 /* promptsmystery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6413422A6832B400291ED0 /* promptsmystery.swift */; };
+		BD6413452A6832C500291ED0 /* promptshistorical.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6413442A6832C500291ED0 /* promptshistorical.swift */; };
+		BD6413472A6832CF00291ED0 /* promptsnonfiction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6413462A6832CF00291ED0 /* promptsnonfiction.swift */; };
 		BD97140E2A658D24008C5D01 /* FinalAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97140D2A658D24008C5D01 /* FinalAppApp.swift */; };
 		BD9714122A658D25008C5D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9714112A658D25008C5D01 /* Assets.xcassets */; };
 		BD9714152A658D25008C5D01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9714142A658D25008C5D01 /* Preview Assets.xcassets */; };
@@ -17,6 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD64133C2A68328400291ED0 /* promptsfantasy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = promptsfantasy.swift; sourceTree = "<group>"; };
+		BD64133E2A68329400291ED0 /* promptscomedy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = promptscomedy.swift; sourceTree = "<group>"; };
+		BD6413402A6832AB00291ED0 /* promptshorror.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = promptshorror.swift; sourceTree = "<group>"; };
+		BD6413422A6832B400291ED0 /* promptsmystery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = promptsmystery.swift; sourceTree = "<group>"; };
+		BD6413442A6832C500291ED0 /* promptshistorical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = promptshistorical.swift; sourceTree = "<group>"; };
+		BD6413462A6832CF00291ED0 /* promptsnonfiction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = promptsnonfiction.swift; sourceTree = "<group>"; };
 		BD97140A2A658D24008C5D01 /* FinalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD97140D2A658D24008C5D01 /* FinalAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalAppApp.swift; sourceTree = "<group>"; };
 		BD9714112A658D25008C5D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,7 +73,13 @@
 				BD9714352A65A8F8008C5D01 /* homescreen.swift */,
 				BDD513472A65DF2B00F10D10 /* random_or_personalized.swift */,
 				BD9714372A65A920008C5D01 /* survey1.swift */,
+				BD64133C2A68328400291ED0 /* promptsfantasy.swift */,
+				BD64133E2A68329400291ED0 /* promptscomedy.swift */,
 				BD9714392A65A929008C5D01 /* prompts.swift */,
+				BD6413402A6832AB00291ED0 /* promptshorror.swift */,
+				BD6413422A6832B400291ED0 /* promptsmystery.swift */,
+				BD6413442A6832C500291ED0 /* promptshistorical.swift */,
+				BD6413462A6832CF00291ED0 /* promptsnonfiction.swift */,
 				BD9714112A658D25008C5D01 /* Assets.xcassets */,
 				BD9714132A658D25008C5D01 /* Preview Content */,
 			);
@@ -146,11 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD64133D2A68328400291ED0 /* promptsfantasy.swift in Sources */,
 				BD9714382A65A920008C5D01 /* survey1.swift in Sources */,
 				BDD513482A65DF2B00F10D10 /* random_or_personalized.swift in Sources */,
+				BD6413452A6832C500291ED0 /* promptshistorical.swift in Sources */,
+				BD64133F2A68329400291ED0 /* promptscomedy.swift in Sources */,
 				BD97143A2A65A929008C5D01 /* prompts.swift in Sources */,
+				BD6413432A6832B400291ED0 /* promptsmystery.swift in Sources */,
 				BD97140E2A658D24008C5D01 /* FinalAppApp.swift in Sources */,
 				BD9714362A65A8F8008C5D01 /* homescreen.swift in Sources */,
+				BD6413412A6832AB00291ED0 /* promptshorror.swift in Sources */,
+				BD6413472A6832CF00291ED0 /* promptsnonfiction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
