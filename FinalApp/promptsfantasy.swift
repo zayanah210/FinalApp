@@ -9,7 +9,15 @@ import SwiftUI
 
 struct promptsfantasy: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Which Fantasy topic would you like?")
+                .font(.title2)
+            
+            Text("Dystopian fantasy option")
+        
+            Text("Magical Fantasy option")
+        }
+        
     }
 }
 

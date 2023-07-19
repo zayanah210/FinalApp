@@ -13,6 +13,39 @@ struct survey1: View {
             Image("survey")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
+           
+                NavigationStack {
+                    NavigationLink(destination: promptsfantasy()) {
+                        Text("Fantasy")
+                        
+            NavigationLink(destination: promptscomedy()) {
+                            Text("Comedy")
+                
+                NavigationLink(destination: promptshorror()) {
+                    Text("Horror")
+                    
+                    NavigationLink(destination: promptsmystery()) {
+                        Text("Mystery")
+                    }
+                    NavigationLink(destination: promptshistorical()) {
+                        Text("Historical")
+                    }
+                    NavigationLink(destination: promptsnonfiction()) {
+                        Text("Nonfiction")
+                    }
+                    
+                }
+
+                
+                        }
+            }
+
+       
+                    
+                }
+
+            }
+
         }
     }
     
@@ -21,4 +54,4 @@ struct survey1: View {
             survey1()
         }
     }
-}
+
