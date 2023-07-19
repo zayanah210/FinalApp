@@ -17,28 +17,39 @@ struct prompts: View {
     @State private var promptUser = "Click Generate"
     
     var body: some View {
-
-        let randRomancePrompt = romance_prompts.randomElement()!
         
-        ZStack {
+        let randRomancePrompt = romance_prompts.randomElement()!
+        ZStack{
             Image("prompts_screen")
-                .resizable(resizingMode: .stretch)
-                .aspectRatio(contentMode: .fit)
-            VStack{
-
+                               .resizable(resizingMode: .stretch)
+                               .aspectRatio(contentMode: .fit)
+            VStack {
+               
                 Spacer()
                 
                 Text(promptUser)
+                    .font(.caption)
+                    .multilineTextAlignment(.leading)
+                    .lineLimit(nil)
+                    .padding(.trailing, 150.0)
+                    .frame(height: 200.0)
+                
                 
                 Spacer()
                 Button("Generate") {
                     promptUser = randRomancePrompt
+                    
+//                    NavigationStack {
+//                        NavigationLink(destination: random_or_personalized()) {
+//                            Text("Fantasy")
                 }
             }
             Spacer()
         }
     }
 }
+
+
 
 struct prompts_Previews: PreviewProvider {
     static var previews: some View {

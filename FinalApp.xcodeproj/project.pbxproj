@@ -19,6 +19,8 @@
 		BD9714362A65A8F8008C5D01 /* homescreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9714352A65A8F8008C5D01 /* homescreen.swift */; };
 		BD9714382A65A920008C5D01 /* survey1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9714372A65A920008C5D01 /* survey1.swift */; };
 		BD97143A2A65A929008C5D01 /* prompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9714392A65A929008C5D01 /* prompts.swift */; };
+		BDC20BD42A686AEE00C26472 /* savedpromptsview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC20BD32A686AEE00C26472 /* savedpromptsview.swift */; };
+		BDC20BD62A686B4700C26472 /* promptsrandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC20BD52A686B4700C26472 /* promptsrandom.swift */; };
 		BDD513482A65DF2B00F10D10 /* random_or_personalized.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD513472A65DF2B00F10D10 /* random_or_personalized.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +38,8 @@
 		BD9714352A65A8F8008C5D01 /* homescreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homescreen.swift; sourceTree = "<group>"; };
 		BD9714372A65A920008C5D01 /* survey1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = survey1.swift; sourceTree = "<group>"; };
 		BD9714392A65A929008C5D01 /* prompts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prompts.swift; sourceTree = "<group>"; };
+		BDC20BD32A686AEE00C26472 /* savedpromptsview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savedpromptsview.swift; sourceTree = "<group>"; };
+		BDC20BD52A686B4700C26472 /* promptsrandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = promptsrandom.swift; sourceTree = "<group>"; };
 		BDD513472A65DF2B00F10D10 /* random_or_personalized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = random_or_personalized.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +84,8 @@
 				BD6413422A6832B400291ED0 /* promptsmystery.swift */,
 				BD6413442A6832C500291ED0 /* promptshistorical.swift */,
 				BD6413462A6832CF00291ED0 /* promptsnonfiction.swift */,
+				BDC20BD52A686B4700C26472 /* promptsrandom.swift */,
+				BDC20BD32A686AEE00C26472 /* savedpromptsview.swift */,
 				BD9714112A658D25008C5D01 /* Assets.xcassets */,
 				BD9714132A658D25008C5D01 /* Preview Content */,
 			);
@@ -172,7 +178,9 @@
 				BD97143A2A65A929008C5D01 /* prompts.swift in Sources */,
 				BD6413432A6832B400291ED0 /* promptsmystery.swift in Sources */,
 				BD97140E2A658D24008C5D01 /* FinalAppApp.swift in Sources */,
+				BDC20BD42A686AEE00C26472 /* savedpromptsview.swift in Sources */,
 				BD9714362A65A8F8008C5D01 /* homescreen.swift in Sources */,
+				BDC20BD62A686B4700C26472 /* promptsrandom.swift in Sources */,
 				BD6413412A6832AB00291ED0 /* promptshorror.swift in Sources */,
 				BD6413472A6832CF00291ED0 /* promptsnonfiction.swift in Sources */,
 			);
