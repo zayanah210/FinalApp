@@ -20,11 +20,12 @@ struct prompts: View {
 
         let randRomancePrompt = romance_prompts.randomElement()!
         
-        VStack {
-            ZStack{
-                Image("prompts_screen")
-                    .resizable(resizingMode: .stretch)
-                    .aspectRatio(contentMode: .fit)
+        ZStack {
+            Image("prompts_screen")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+            VStack{
+
                 Spacer()
                 
                 Text(promptUser)

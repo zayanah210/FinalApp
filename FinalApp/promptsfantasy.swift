@@ -27,6 +27,9 @@ struct promptsfantasy: View {
                 Text(promptUser)
                     .font(.caption)
                     .multilineTextAlignment(.leading)
+                    .lineLimit(nil)
+                    .padding(.trailing, 150.0)
+                    .frame(height: 200.0)
                 
                 
                 Spacer()

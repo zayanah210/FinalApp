@@ -9,22 +9,24 @@ import SwiftUI
 
 struct random_or_personalized: View {
     var body: some View {
-        ZStack {
-            Image("random_or_personalized")
-                .resizable(resizingMode: .stretch)
-                .aspectRatio(contentMode: .fill)
-            HStack {
-                
-                NavigationStack {
-                    NavigationLink(destination: survey1()) {
-                        Text("Personalized!")
+        NavigationStack {
+            ZStack {
+                Image("random_or_personalized")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fill)
+                HStack {
+                    
+
+                        NavigationLink(destination: survey1()) {
+                            Text("Personalized!")
+                        }
                     }
+                    Spacer()
                 }
-                Spacer()
             }
         }
     }
-}
+
 
 
 struct random_or_personalized_Previews: PreviewProvider {

@@ -14,35 +14,48 @@ struct survey1: View {
                 Image("survey")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
-                HStack (alignment: .top) {
-                    VStack {
-                        
-                        
-                        
+                
+                
+                HStack {
+                    VStack (spacing: 16.8){
                         
                         NavigationLink(destination: promptsfantasy()) {
                             Text("Fantasy")
+                                .foregroundColor(Color.white)
+                                .padding(0.0)
                         }
                         NavigationLink(destination: promptscomedy()) {
                             Text("Comedy")
+                                .foregroundColor(Color.white)
+                        }
+                        NavigationLink(destination: prompts()) {
+                            Text("Romance")
+                                .foregroundColor(Color.white)
                         }
                         NavigationLink(destination: promptshorror()) {
                             Text("Horror")
+                                .foregroundColor(Color.white)
                         }
                         NavigationLink(destination: promptsmystery()) {
                             Text("Mystery")
+                                .foregroundColor(Color.white)
                         }
                         NavigationLink(destination: promptshistorical()) {
                             Text("Historical")
+                                .foregroundColor(Color.white)
                         }
                         NavigationLink(destination: promptsnonfiction()) {
                             Text("Nonfiction")
+                                .foregroundColor(Color.white)
                         }
                         
                     }
                     
                     
                 }
+                .padding(.trailing, 137.0)
+                .padding(.top, 231.0)
+                .frame(height: 0.0)
             }
             
         }
