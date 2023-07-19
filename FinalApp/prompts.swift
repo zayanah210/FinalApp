@@ -17,8 +17,9 @@ struct prompts: View {
     @State private var promptUser = "Click Generate"
     
     var body: some View {
-        
+
         let randRomancePrompt = romance_prompts.randomElement()!
+        
         VStack {
             ZStack{
                 Image("prompts_screen")
