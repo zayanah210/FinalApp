@@ -15,11 +15,12 @@ struct random_or_personalized: View {
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fill)
                 HStack {
-                    VStack (spacing: 100.0){
+                    VStack (spacing: 85.0){
                     
                         NavigationLink(destination: promptsrandom()) {
                             Text("Random")
                             .foregroundColor(Color.white)
+                            
                         }
                         NavigationLink(destination: survey1()) {
                             Text("Personalized")
@@ -28,7 +29,7 @@ struct random_or_personalized: View {
                     }
                 }
                 .padding(.trailing, 150.0)
-                .padding(.top, 320.0)
+                .padding(.top, 218.0)
 
                     Spacer()
                 }
