@@ -11,7 +11,7 @@ struct promptsfantasy: View {
     
     let fantasy_prompts = ["In a world where everyone's memories can be bought and sold, a character discovers a black market for stolen memories.", "In a world where robots have taken over most jobs, describe the relationship between a human worker and their robot colleague.", "In a post-apocalyptic world, a survivor finds a journal with cryptic entries detailing the location of a hidden paradise. Write a story about their journey to find it.", "Create a world where music has magical properties, and a talented musician discovers that their melodies can heal or harm, depending on their intentions.", "In a society governed by an oppressive AI, write a story about a hacker who discovers a way to bypass the AI's control and plans to liberate the people.", "In a future where technology controls every aspect of life, explore the journey of a person who chooses to live 'off the grid' to find genuine human connection and freedom.", "Create a dystopian society where people are assigned their professions at birth, and a person fights against their predetermined fate to pursue their true passion.","In the mystical Enchanted Forest, a courageous young adventurer embarks on a quest to find the lost 'Crystal Heart',' a powerful artifact of balance and harmony. Along the way, they encounter magical creatures, face challenges, and uncover secrets that will determine the fate of their world and beyond. Will they succeed in their quest and restore peace to the realms?","In a world where dreams come to life, a young dreamweaver discovers an ancient book of forgotten dreams. As they unlock its pages, they inadvertently release powerful and chaotic dreams into reality. Now, the dreamweaver must navigate through a fantastical realm filled with whimsical wonders and terrifying nightmares. Will they learn to control the dreams and restore order, or will the world be forever lost in a surreal and unpredictable fantasy?"]
     
-    @State private var promptUser = "Click Generate"
+    @State private var promptUser = "Click 'Generate'⬇️"
     
     var body: some View {
         
@@ -26,6 +26,8 @@ struct promptsfantasy: View {
                 
                 Text(promptUser)
                     .font(.caption)
+                    .fontWeight(.semibold)
+                    .foregroundColor(Color.pink)
                     .multilineTextAlignment(.center)
                     .lineLimit(nil)
                     .padding(.trailing, 150.0)
@@ -37,6 +39,10 @@ struct promptsfantasy: View {
                     promptUser = randFantasyPrompt
                     
                 }
+                .border(/*@START_MENU_TOKEN@*/Color.blue/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+                .cornerRadius(/*@START_MENU_TOKEN@*/2.0/*@END_MENU_TOKEN@*/)
+                .controlSize(/*@START_MENU_TOKEN@*/.large/*@END_MENU_TOKEN@*/)
+               
             }
             Spacer()
         }

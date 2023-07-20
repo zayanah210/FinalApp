@@ -11,7 +11,7 @@ struct promptscomedy: View {
     
     let comedy_prompts = ["Write a story about a person who wakes up one morning to find that they have switched bodies with their pet.","In a whimsical town filled with talking animals and magical creatures, a friendly competition is underway to determine the silliest, wackiest, and funniest resident. Kids from all around the town eagerly sign up for the 'Craziest Capers Contest.'","Write a dialogue between two aliens who are trying to decipher the strange behavior of humans during a casual visit to Earth.","In a parallel universe, people have random, temporary superpowers based on the last thing they ate. Describe the hilarious adventures of a food-powered hero.","Write a story about a group of misfit ghosts who are terrible at haunting and try to scare a skeptic living in their haunted house.","Write a series of humorous diary entries from the perspective of a house cat, documenting their daily life and observations of their human family.","In a not-so-distant future, the world faces a peculiar and comically bizarre predicament. An eccentric scientist accidentally creates a device that alters the laws of physics, leading to hilarious and darkly humorous consequences.","Create a humorous dialogue between a self-aware computer program and its frustrated user.","In a futuristic society where robots serve as personal assistants, write a funny story about a quirky robot that develops a sarcastic but dangerous personality.","In a satirical world of magic and technology, a misfit group of students attends an unconventional academy with absurd courses like 'Witchcraft for Accountants' and 'Zombie Marketing.' Follow their darkly humorous journey through outlandish lessons, eccentric faculty, and unexpected friendships. Hilarity ensues as the absurd meets the fantastical in this quirky and whimsical academy."]
     
-    @State private var promptUser = "Click Generate"
+    @State private var promptUser = "Click 'Generate'⬇️"
     
     var body: some View {
         
@@ -26,6 +26,8 @@ struct promptscomedy: View {
                 
                 Text(promptUser)
                     .font(.caption)
+                    .fontWeight(.semibold)
+                    .foregroundColor(Color(hue: 0.479, saturation: 1.0, brightness: 0.54))
                     .multilineTextAlignment(.leading)
                     .lineLimit(nil)
                     .padding(.trailing, 150.0)
@@ -40,6 +42,9 @@ struct promptscomedy: View {
 //                        NavigationLink(destination: random_or_personalized()) {
 //                            Text("Fantasy")
                 }
+                .border(/*@START_MENU_TOKEN@*/Color.blue/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+                .cornerRadius(/*@START_MENU_TOKEN@*/2.0/*@END_MENU_TOKEN@*/)
+                .controlSize(/*@START_MENU_TOKEN@*/.large/*@END_MENU_TOKEN@*/)
             }
             Spacer()
         }

@@ -20,32 +20,39 @@ struct survey1: View {
                     VStack (spacing: 16.8){
                         
                         NavigationLink(destination: promptsfantasy()) {
-                            Text("Fantasy")
+                            Text("Fantasy🦄🧚🏻‍♀️")
+                                .fontWeight(.semibold)
                                 .foregroundColor(Color.white)
                                 .padding(0.0)
                         }
                         NavigationLink(destination: promptscomedy()) {
-                            Text("Comedy")
+                            Text("Comedy🎭🤣")
+                                .fontWeight(.semibold)
                                 .foregroundColor(Color.white)
                         }
                         NavigationLink(destination: prompts()) {
-                            Text("Romance")
+                            Text("Romance❤️💌")
+                                .fontWeight(.semibold)
                                 .foregroundColor(Color.white)
                         }
                         NavigationLink(destination: promptshorror()) {
-                            Text("Horror")
+                            Text("Horror🧟‍♂️😱")
+                                .fontWeight(.semibold)
                                 .foregroundColor(Color.white)
                         }
                         NavigationLink(destination: promptsmystery()) {
-                            Text("Mystery")
+                            Text("Mystery🕵🏼‍♂️👀")
+                                .fontWeight(.semibold)
                                 .foregroundColor(Color.white)
                         }
                         NavigationLink(destination: promptshistorical()) {
-                            Text("Historical")
+                            Text("Historical📜🏛️")
+                                .fontWeight(.semibold)
                                 .foregroundColor(Color.white)
                         }
                         NavigationLink(destination: promptsnonfiction()) {
-                            Text("Nonfiction")
+                            Text("Nonfiction☑💡")
+                                .fontWeight(.semibold)
                                 .foregroundColor(Color.white)
                         }
                         
