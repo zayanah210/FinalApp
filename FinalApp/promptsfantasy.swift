@@ -35,16 +35,21 @@ struct promptsfantasy: View {
                 
                 
                 Spacer()
-                Button("Generate") {
-                    promptUser = randFantasyPrompt
-                    
+                VStack{
+                    Button("Generate") {
+                        promptUser = randFantasyPrompt
+                        
+                        
+                    }
                 }
+
                 .border(/*@START_MENU_TOKEN@*/Color.blue/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
                 .cornerRadius(/*@START_MENU_TOKEN@*/2.0/*@END_MENU_TOKEN@*/)
                 .controlSize(/*@START_MENU_TOKEN@*/.large/*@END_MENU_TOKEN@*/)
                
             }
             Spacer()
+        
         }
     }
 }

@@ -13,6 +13,8 @@
 		BD6413432A6832B400291ED0 /* promptsmystery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6413422A6832B400291ED0 /* promptsmystery.swift */; };
 		BD6413452A6832C500291ED0 /* promptshistorical.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6413442A6832C500291ED0 /* promptshistorical.swift */; };
 		BD6413472A6832CF00291ED0 /* promptsnonfiction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6413462A6832CF00291ED0 /* promptsnonfiction.swift */; };
+		BD6C33AE2A699B5D008FE5B3 /* Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD6C33AC2A699B5D008FE5B3 /* Data.xcdatamodeld */; };
+		BD6C33D12A699E64008FE5B3 /* TextFile1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6C33D02A699E64008FE5B3 /* TextFile1.swift */; };
 		BD97140E2A658D24008C5D01 /* FinalAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97140D2A658D24008C5D01 /* FinalAppApp.swift */; };
 		BD9714122A658D25008C5D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9714112A658D25008C5D01 /* Assets.xcassets */; };
 		BD9714152A658D25008C5D01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9714142A658D25008C5D01 /* Preview Assets.xcassets */; };
@@ -31,6 +33,8 @@
 		BD6413422A6832B400291ED0 /* promptsmystery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = promptsmystery.swift; sourceTree = "<group>"; };
 		BD6413442A6832C500291ED0 /* promptshistorical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = promptshistorical.swift; sourceTree = "<group>"; };
 		BD6413462A6832CF00291ED0 /* promptsnonfiction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = promptsnonfiction.swift; sourceTree = "<group>"; };
+		BD6C33AD2A699B5D008FE5B3 /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
+		BD6C33D02A699E64008FE5B3 /* TextFile1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFile1.swift; sourceTree = "<group>"; };
 		BD97140A2A658D24008C5D01 /* FinalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD97140D2A658D24008C5D01 /* FinalAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalAppApp.swift; sourceTree = "<group>"; };
 		BD9714112A658D25008C5D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,6 +79,7 @@
 			children = (
 				BD97140D2A658D24008C5D01 /* FinalAppApp.swift */,
 				BD9714352A65A8F8008C5D01 /* homescreen.swift */,
+				BD6C33D02A699E64008FE5B3 /* TextFile1.swift */,
 				BDD513472A65DF2B00F10D10 /* random_or_personalized.swift */,
 				BD9714372A65A920008C5D01 /* survey1.swift */,
 				BD64133C2A68328400291ED0 /* promptsfantasy.swift */,
@@ -86,6 +91,7 @@
 				BD6413462A6832CF00291ED0 /* promptsnonfiction.swift */,
 				BDC20BD52A686B4700C26472 /* promptsrandom.swift */,
 				BDC20BD32A686AEE00C26472 /* savedpromptsview.swift */,
+				BD6C33AC2A699B5D008FE5B3 /* Data.xcdatamodeld */,
 				BD9714112A658D25008C5D01 /* Assets.xcassets */,
 				BD9714132A658D25008C5D01 /* Preview Content */,
 			);
@@ -175,6 +181,8 @@
 				BDD513482A65DF2B00F10D10 /* random_or_personalized.swift in Sources */,
 				BD6413452A6832C500291ED0 /* promptshistorical.swift in Sources */,
 				BD64133F2A68329400291ED0 /* promptscomedy.swift in Sources */,
+				BD6C33AE2A699B5D008FE5B3 /* Data.xcdatamodeld in Sources */,
+				BD6C33D12A699E64008FE5B3 /* TextFile1.swift in Sources */,
 				BD97143A2A65A929008C5D01 /* prompts.swift in Sources */,
 				BD6413432A6832B400291ED0 /* promptsmystery.swift in Sources */,
 				BD97140E2A658D24008C5D01 /* FinalAppApp.swift in Sources */,
@@ -381,6 +389,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD6C33AC2A699B5D008FE5B3 /* Data.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD6C33AD2A699B5D008FE5B3 /* Data.xcdatamodel */,
+			);
+			currentVersion = BD6C33AD2A699B5D008FE5B3 /* Data.xcdatamodel */;
+			path = Data.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BD9714022A658D24008C5D01 /* Project object */;
 }

@@ -28,7 +28,7 @@ struct promptscomedy: View {
                     .font(.caption)
                     .fontWeight(.semibold)
                     .foregroundColor(Color(hue: 0.479, saturation: 1.0, brightness: 0.54))
-                    .multilineTextAlignment(.leading)
+                    .multilineTextAlignment(.center)
                     .lineLimit(nil)
                     .padding(.trailing, 150.0)
                     .frame (width: 300.0, height: 200.0)
