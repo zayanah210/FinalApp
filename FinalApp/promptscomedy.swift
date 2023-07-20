@@ -29,7 +29,7 @@ struct promptscomedy: View {
                     .multilineTextAlignment(.leading)
                     .lineLimit(nil)
                     .padding(.trailing, 150.0)
-                    .frame(height: 200.0)
+                    .frame (width: 300.0, height: 200.0)
                 
                 
                 Spacer()
