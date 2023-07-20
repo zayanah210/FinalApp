@@ -33,7 +33,7 @@ struct promptsfantasy: View {
                     .padding(.trailing, 150.0)
                     .frame (width: 300.0, height: 200.0)
                 
-                
+                    
                 Spacer()
                 VStack{
                     Button("Generate") {
